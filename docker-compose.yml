@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  jekyll:
+    image: ruby:3.1
+    working_dir: /usr/src/docs
+    volumes:
+      - ./docs:/usr/src/docs
+      - jekyll_gems:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+      - BUNDLE_PATH=/usr/local/bundle
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    command: >
+      bash -c "
+        if [ ! -f Gemfile ]; then
+          echo 'Creating Gemfile...'
+          bundle init
+          echo 'gem \"jekyll\", \"~> 4.3.0\"' >> Gemfile
+          echo 'gem \"jekyll-remote-theme\"' >> Gemfile
+          echo 'gem \"jekyll-seo-tag\"' >> Gemfile
+          echo 'gem \"jekyll-sitemap\"' >> Gemfile
+          echo 'gem \"jekyll-include-cache\"' >> Gemfile
+          bundle install
+        else
+          echo 'Gemfile exists, checking if gems need updating...'
+          bundle check || bundle install
+        fi &&
+        echo 'Starting Jekyll server...' &&
+        bundle exec jekyll serve --source . --destination ./_site --host 0.0.0.0 --port 4000 --watch --force_polling --livereload
+      "
+
+  jekyll-build:
+    image: ruby:3.1
+    working_dir: /usr/src/docs
+    volumes:
+      - ./docs:/usr/src/docs
+      - jekyll_gems:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+      - BUNDLE_PATH=/usr/local/bundle
+    command: >
+      bash -c "
+        if [ ! -f Gemfile ]; then
+          echo 'Creating Gemfile...'
+          bundle init
+          echo 'gem \"jekyll\", \"~> 4.3.0\"' >> Gemfile
+          echo 'gem \"jekyll-remote-theme\"' >> Gemfile
+          echo 'gem \"jekyll-seo-tag\"' >> Gemfile
+          echo 'gem \"jekyll-sitemap\"' >> Gemfile
+          echo 'gem \"jekyll-include-cache\"' >> Gemfile
+          bundle install
+        else
+          echo 'Gemfile exists, checking if gems need updating...'
+          bundle check || bundle install
+        fi &&
+        echo 'Building Jekyll site...' &&
+        bundle exec jekyll build --source . --destination ./_site
+      "
+
+  lychee:
+    image: lycheeverse/lychee:latest
+    volumes:
+      - ./docs/_site:/site
+    command: --verbose --no-progress --max-redirects 5 --retry-wait-time 2 /site
+
+volumes:
+  jekyll_gems:

@@ -1,0 +1,38 @@
+# GitHub Pages (Jekyll) configuration using Just the Docs theme
+remote_theme: just-the-docs/just-the-docs
+
+# Site metadata
+title: UCSD Data Science Capstone
+description: Project portal with overview, timeline, resources, people, and submissions.
+
+# UX
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: Back to top
+color_scheme: light
+
+# Links in header
+aux_links:
+  "GitHub Repository": "https://github.intuit.com/vcalderon/UCSD-Intuit-Data-Science-Capstone" # TODO: update to the real repository URL
+
+# Footer
+footer_content: "© {{ site.time | date: '%Y' }} UC San Diego - Data Science Capstones"
+
+# Markdown engine
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+
+# Exclude non-site files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
