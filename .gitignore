@@ -1,0 +1,36 @@
+# Jekyll build artifacts
+docs/_site/
+docs/.jekyll-cache/
+docs/.sass-cache/
+docs/Gemfile
+docs/Gemfile.lock
+
+# Makefile artifacts
+service.log
+service.pid
+.last-check
+file-watcher.log
+background.pid
+
+# Development documentation
+DEVELOPER_REFERENCE.md
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
