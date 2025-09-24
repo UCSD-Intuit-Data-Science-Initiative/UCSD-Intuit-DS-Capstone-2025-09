@@ -6,12 +6,32 @@ nav_order: 5
 
 Information on the project's team members and how to communicate.
 
-## Office Hours
-- Provide a weekly schedule table with available time slots for each mentor.
-- Add a link to a booking tool (e.g., Calendly).
-
 ## Primary Communication Channel
-- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/slack.svg" alt="Slack" style="width:1em; vertical-align:middle; margin-right:0.3em;" /> Join our Slack Workspace: [hdsi_intuit_capstone_2025-26](https://intuit.enterprise.slack.com/archives/C09E8J7JWEQ)
+Join our *Slack Workspace*:
+- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/slack.svg" alt="Slack" style="width:1em; vertical-align:middle; margin-right:0.3em;" />[hdsi_intuit_capstone_2025-26](https://intuit.enterprise.slack.com/archives/C09E8J7JWEQ)
+
+---
+
+## Office Hours
+
+### **Weekly Schedule**
+
+| Event Type | Day | Time | Format | Description |
+|------------|-----|------|--------|-------------|
+| **Discussion Hour** | Thursday | 11:00 AM - 12:00 PM PT | Group Session | Open discussion on project progress, technical challenges, and methodology questions |
+| **Office Hours** | Friday | 1:00 PM - 2:00 PM PT (TBD) | Individual/Group | Drop-in time for students to ask questions, get help on course material, and receive feedback from instructors or mentors |
+
+### **How to Join**
+- **Discussion Hour**: Open to all students - no booking required
+- **Office Hours**: Book through [Calendly link] (to be provided)
+- **Virtual Access**: Zoom links will be shared via Slack workspace
+
+### **What to Expect**
+- **Discussion Hour**: Collaborative problem-solving, peer learning, and group Q&A
+- **Office Hours**: Personalized guidance, code reviews, and detailed technical discussions
+- **Preparation**: Come with specific questions, code snippets, or challenges you're facing
+- **Follow-up**: Action items and next steps will be documented and shared
+
 
 ---
 
@@ -22,13 +42,13 @@ Information on the project's team members and how to communicate.
 ## Teams & Mentors
 List each project team and its members. Include mentor/faculty profiles.
 
-| Name        | Role              | Expertise                       | Contact               |
+| Name        | Role              | Job Title                       | Contact               |
 |-------------|-------------------|---------------------------------|-----------------------|
-| Akash Shah | Industry Partner Lead   |      | [LinkedIn Profile](https://www.linkedin.com/in/akash-shah-a63b0618/) |
-| Bor-Chau Juang  | Industry Mentor   | Staff AI Scientist              | [LinkedIn Profile](https://www.linkedin.com/in/borchau-juang/)  |
-| Lisa Li  | Industry Mentor   | Senior AI Scientist              | WIP  |
-| Victor Calderon  | Industry Mentor   | Machine Learning Engineer              | [LinkedIn Profile](https://www.linkedin.com/in/vcalderon/)  |
-| Pratyush Panda  | Industry Mentor   | Staff Machine Learning Engineer              | [LinkedIn Profile](https://www.linkedin.com/in/pratyush-k-panda/)  |
+| **Akash Shah** | Industry Partner Lead   | Principal Product Manager     | [LinkedIn Profile](https://www.linkedin.com/in/akash-shah-a63b0618/) |
+| **Bor-Chau Juang**  | Industry Mentor   | Staff AI Scientist              | [LinkedIn Profile](https://www.linkedin.com/in/borchau-juang/)  |
+| **Lisa Li**  | Industry Mentor   | Senior AI Scientist              | WIP  |
+| **Victor Calderon**  | Industry Mentor   | Machine Learning Engineer              | [LinkedIn Profile](https://www.linkedin.com/in/vcalderon/)  |
+| **Pratyush Panda**  | Industry Mentor   | Staff Machine Learning Engineer              | [LinkedIn Profile](https://www.linkedin.com/in/pratyush-k-panda/)  |
 
 ## Industry Partner & Mentor Profiles
 
@@ -89,7 +109,6 @@ Victor is a Machine Learning Engineer at Intuit, specializing in Generative AI a
 - Computer Vision
 - MLOps Pipelines
 - Machine Learning Engineering
-- Computational Astrophysics
 
 ---
 
