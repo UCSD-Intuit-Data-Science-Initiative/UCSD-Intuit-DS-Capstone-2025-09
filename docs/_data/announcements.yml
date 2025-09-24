@@ -1,10 +1,25 @@
 # Latest announcements shown on the homepage (top 3 displayed)
-- title: Welcome to the Capstone Portal
-  date: 2025-08-01
-  message: Kickoff meeting slides are posted. Explore the Project Overview to get started.
-- title: Dataset Access Released
-  date: 2025-08-05
-  message: Initial datasets are available under Resources → Datasets. Read the data dictionary first.
-- title: Proposal Deadline Reminder
-  date: 2025-08-10
-  message: Project proposals are due by Friday 5pm Pacific. Use the provided template.
+- title: 🚀 Project Kickoff - October 1, 2025
+  date: 2025-10-01
+  message: Welcome to the Workforce Management Optimization Capstone! Join our Slack workspace and attend the kickoff session. Check the Project Overview and FAQ for essential information.
+- title: 📚 Learning Resources Available
+  date: 2025-10-01
+  message: Comprehensive learning materials posted in Resources section. Start with Rob Hyndman's forecasting book and explore the methodology guides. No prior experience required!
+- title: 💼 Office Hours Schedule
+  date: 2025-10-01
+  message: Weekly office hours every Friday 1-2 PM PT and discussion hours every Thursday 11 AM-12 PM PT. Join our Slack workspace for continuous support and peer collaboration.
+- title: 🔐 Dataset Access Information
+  date: 2025-10-15
+  message: Real, anonymized workforce management data available through secure channels. Review the data dictionary and access guidelines. Contact mentors for dataset-specific questions.
+- title: 📊 Q1 Progress Review
+  date: 2025-12-10
+  message: Present your demand forecasting models to Intuit mentors. Review the evaluation criteria in the Project Deliverables section. Prepare 20-minute presentations with live demos.
+- title: 🎄 Holiday Break - December 16, 2025 - January 5, 2026
+  date: 2025-12-16
+  message: Complete break with no work expectations. Use this time to rest and recharge before the intensive Q2 optimization phase. Office hours resume January 6th.
+- title: 📈 Q2 Kickoff - January 20, 2026
+  date: 2026-01-20
+  message: Begin supply optimization phase with Q1 review and stakeholder feedback. Focus on integrating forecasting models with optimization algorithms. Check the updated timeline for Q2 milestones.
+- title: 🏆 Final Presentation - April 21, 2026
+  date: 2026-04-21
+  message: Showcase your complete workforce management solution to industry partners and academic advisors. Prepare final documentation and demo videos. See evaluation criteria for presentation requirements.

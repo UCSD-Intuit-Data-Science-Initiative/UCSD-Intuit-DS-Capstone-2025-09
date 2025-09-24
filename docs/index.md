@@ -12,17 +12,18 @@ nav_order: 1
 A one-sentence summary of the project's core goal. Refine this line to match your cohort's mission.
 
 ## Latest Announcements
-{% assign latest = site.data.announcements | slice: 0, 3 %}
+{% assign latest = site.data.announcements | sort: 'date' | slice: 0, 3 %}
 {% if latest and latest.size > 0 %}
-- {% for a in latest %}**{{ a.title }}** ({{ a.date }}): {{ a.message }}{% if forloop.last == false %}<br/>{% endif %}{% endfor %}
+- {% for a in latest %}**{{ a.title }}** — `{{ a.date }}`: {{ a.message }}{% if forloop.last == false %}<br/>{% endif %}{% endfor %}
 {% else %}
 - No announcements yet.
 {% endif %}
 
+
 ## Upcoming Deadlines
-{% assign upcoming = site.data.deadlines | slice: 0, 3 %}
+{% assign upcoming = site.data.deadlines | sort: 'date' | slice: 0, 3 %}
 {% if upcoming and upcoming.size > 0 %}
-- {% for d in upcoming %}**{{ d.name }}** — {{ d.date }}: {{ d.description }}{% if forloop.last == false %}<br/>{% endif %}{% endfor %}
+- {% for d in upcoming %}**{{ d.name }}** — `{{ d.date }}`: {{ d.description }}{% if forloop.last == false %}<br/>{% endif %}{% endfor %}
 {% else %}
 - No deadlines posted.
 {% endif %}
@@ -32,6 +33,8 @@ A one-sentence summary of the project's core goal. Refine this line to match you
 - [View Datasets & Tech Stack](resources/)
 - [See Project Timeline](timeline)
 - [Book Office Hours](people-and-communication#office-hours)
+- [Frequently Asked Questions (FAQ)](faq)
+
 
 ---
 

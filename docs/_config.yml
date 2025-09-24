@@ -14,10 +14,10 @@ color_scheme: light
 
 # Links in header
 aux_links:
-  "GitHub Repository": "https://github.intuit.com/vcalderon/UCSD-Intuit-Data-Science-Capstone" # TODO: update to the real repository URL
+  "GitHub Repository": "https://github.com/UCSD-Intuit-Data-Science-Initiative/UCSD-Intuit-DS-Capstone-2025-09" # TODO: update to the real repository URL
 
 # Footer
-footer_content: "© {{ site.time | date: '%Y' }} UC San Diego - Data Science Capstones"
+footer_content: "© <span id=\"current-year\">2025</span> UC San Diego - Data Science Capstones<script>document.addEventListener('DOMContentLoaded',function(){const e=document.getElementById('current-year');e&&(e.textContent=new Date().getFullYear())});</script>"
 
 # Markdown engine
 markdown: kramdown
