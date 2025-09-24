@@ -1,10 +1,16 @@
 # Upcoming deadlines (homepage shows next 3)
-- name: Project Proposal Due
-  date: 2025-08-15
-  description: Submit your proposal PDF and repo link.
-- name: Midterm Check-in
-  date: 2025-09-15
-  description: 10-minute sync with mentor; bring preliminary results.
+- name: Q1 Progress Review
+  date: 2025-12-10
+  description: Present demand forecasting models to Intuit mentors. 15-minute presentation with live demos and preliminary results.
+- name: Q1 Final Deliverables
+  date: 2026-01-20
+  description: Submit optimized forecasting model package with performance analysis and validation results (RMSE < target).
+- name: Q2 Progress Review
+  date: 2026-03-17
+  description: Present integrated workforce management system. 20-minute presentation with end-to-end demo and business impact analysis.
+- name: Final Documentation Package
+  date: 2026-04-06
+  description: Submit comprehensive report, technical documentation, code repository, and demo video. All Q2 deliverables due.
 - name: Final Presentation
-  date: 2025-10-30
-  description: Slide deck and demo video due. Live presentation to faculty/industry.
+  date: 2026-04-21
+  description: Final presentation to industry partners and academic advisors. 20-minute presentation with live demo and Q&A session.
