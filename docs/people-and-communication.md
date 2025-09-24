@@ -46,7 +46,7 @@ List each project team and its members. Include mentor/faculty profiles.
 |-------------|-------------------|---------------------------------|-----------------------|
 | **Akash Shah** | Industry Partner Lead   | Principal Product Manager     | [LinkedIn Profile](https://www.linkedin.com/in/akash-shah-a63b0618/) |
 | **Bor-Chau Juang**  | Industry Mentor   | Staff AI Scientist              | [LinkedIn Profile](https://www.linkedin.com/in/borchau-juang/)  |
-| **Lisa Li**  | Industry Mentor   | Senior AI Scientist              | WIP  |
+| **Lisa Li**  | Industry Mentor   | Senior AI Scientist              | [LinkedIn Profile](https://www.linkedin.com/in/xiaotong-li/)  |
 | **Victor Calderon**  | Industry Mentor   | Machine Learning Engineer              | [LinkedIn Profile](https://www.linkedin.com/in/vcalderon/)  |
 | **Pratyush Panda**  | Industry Mentor   | Staff Machine Learning Engineer              | [LinkedIn Profile](https://www.linkedin.com/in/pratyush-k-panda/)  |
 
@@ -84,7 +84,7 @@ Borchau's professional role at Intuit involves AI research and development, spec
 ---
 
 ### 📊 Lisa Li - Senior AI Scientist
-*Role: Industry Mentor*
+*Role: Industry Mentor | [LinkedIn Profile](https://www.linkedin.com/in/xiaotong-li/)*
 
 Lisa is an AI/Data Scientist at Intuit, excited to mentor UCSD students in tackling industry-level challenges. With seven years of experience spanning the insurance sector and now tech at Intuit, she specializes in applying Deep Learning, Time Series models, and LLM models to create impactful solutions. Lisa holds a Master's degree in Data Science from GSU and a Bachelor's in Math from UCLA, and is eager to guide students through developing and deploying data-driven models that address real-world business problems.
 
